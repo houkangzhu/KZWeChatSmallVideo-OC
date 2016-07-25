@@ -15,11 +15,11 @@
 		455711871D3CCA3500D733D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455711861D3CCA3500D733D0 /* CoreGraphics.framework */; };
 		455711891D3CCA3A00D733D0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455711881D3CCA3A00D733D0 /* AVFoundation.framework */; };
 		4557118B1D3CCA4D00D733D0 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4557118A1D3CCA4D00D733D0 /* bg.png */; };
-		4570070A1D45D3430026AF34 /* KZVideoConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 457007011D45D3420026AF34 /* KZVideoConfig.m */; };
-		4570070B1D45D3430026AF34 /* KZVideoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457007031D45D3430026AF34 /* KZVideoListViewController.m */; };
-		4570070C1D45D3430026AF34 /* KZVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 457007051D45D3430026AF34 /* KZVideoPlayer.m */; };
-		4570070D1D45D3430026AF34 /* KZVideoSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 457007071D45D3430026AF34 /* KZVideoSupport.m */; };
-		4570070E1D45D3430026AF34 /* KZVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457007091D45D3430026AF34 /* KZVideoViewController.m */; };
+		4570071A1D45E0C00026AF34 /* KZVideoConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 457007111D45E0C00026AF34 /* KZVideoConfig.m */; };
+		4570071B1D45E0C00026AF34 /* KZVideoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457007131D45E0C00026AF34 /* KZVideoListViewController.m */; };
+		4570071C1D45E0C00026AF34 /* KZVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 457007151D45E0C00026AF34 /* KZVideoPlayer.m */; };
+		4570071D1D45E0C00026AF34 /* KZVideoSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 457007171D45E0C00026AF34 /* KZVideoSupport.m */; };
+		4570071E1D45E0C00026AF34 /* KZVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 457007191D45E0C00026AF34 /* KZVideoViewController.m */; };
 		458E84651D40AF35007FD511 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458E84641D40AF35007FD511 /* Photos.framework */; };
 		458E846B1D40C96B007FD511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 458E84691D40C96B007FD511 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -37,16 +37,16 @@
 		455711861D3CCA3500D733D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		455711881D3CCA3A00D733D0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		4557118A1D3CCA4D00D733D0 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
-		457007001D45D3420026AF34 /* KZVideoConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZVideoConfig.h; sourceTree = "<group>"; };
-		457007011D45D3420026AF34 /* KZVideoConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZVideoConfig.m; sourceTree = "<group>"; };
-		457007021D45D3430026AF34 /* KZVideoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZVideoListViewController.h; sourceTree = "<group>"; };
-		457007031D45D3430026AF34 /* KZVideoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZVideoListViewController.m; sourceTree = "<group>"; };
-		457007041D45D3430026AF34 /* KZVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZVideoPlayer.h; sourceTree = "<group>"; };
-		457007051D45D3430026AF34 /* KZVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZVideoPlayer.m; sourceTree = "<group>"; };
-		457007061D45D3430026AF34 /* KZVideoSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZVideoSupport.h; sourceTree = "<group>"; };
-		457007071D45D3430026AF34 /* KZVideoSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZVideoSupport.m; sourceTree = "<group>"; };
-		457007081D45D3430026AF34 /* KZVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZVideoViewController.h; sourceTree = "<group>"; };
-		457007091D45D3430026AF34 /* KZVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZVideoViewController.m; sourceTree = "<group>"; };
+		457007101D45E0C00026AF34 /* KZVideoConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZVideoConfig.h; sourceTree = "<group>"; };
+		457007111D45E0C00026AF34 /* KZVideoConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZVideoConfig.m; sourceTree = "<group>"; };
+		457007121D45E0C00026AF34 /* KZVideoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZVideoListViewController.h; sourceTree = "<group>"; };
+		457007131D45E0C00026AF34 /* KZVideoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZVideoListViewController.m; sourceTree = "<group>"; };
+		457007141D45E0C00026AF34 /* KZVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZVideoPlayer.h; sourceTree = "<group>"; };
+		457007151D45E0C00026AF34 /* KZVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZVideoPlayer.m; sourceTree = "<group>"; };
+		457007161D45E0C00026AF34 /* KZVideoSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZVideoSupport.h; sourceTree = "<group>"; };
+		457007171D45E0C00026AF34 /* KZVideoSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZVideoSupport.m; sourceTree = "<group>"; };
+		457007181D45E0C00026AF34 /* KZVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZVideoViewController.h; sourceTree = "<group>"; };
+		457007191D45E0C00026AF34 /* KZVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZVideoViewController.m; sourceTree = "<group>"; };
 		458E84641D40AF35007FD511 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		458E846A1D40C96B007FD511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,7 +87,7 @@
 		4557116E1D3CCA1200D733D0 /* KZWeChatSmallVideo_OC */ = {
 			isa = PBXGroup;
 			children = (
-				457006FF1D45D3420026AF34 /* KZWeChatSmallVideo */,
+				4570070F1D45E0C00026AF34 /* KZSmallVideoRecorder */,
 				4557118A1D3CCA4D00D733D0 /* bg.png */,
 				455711721D3CCA1200D733D0 /* AppDelegate.h */,
 				455711731D3CCA1200D733D0 /* AppDelegate.m */,
@@ -110,21 +110,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		457006FF1D45D3420026AF34 /* KZWeChatSmallVideo */ = {
+		4570070F1D45E0C00026AF34 /* KZSmallVideoRecorder */ = {
 			isa = PBXGroup;
 			children = (
-				457007081D45D3430026AF34 /* KZVideoViewController.h */,
-				457007091D45D3430026AF34 /* KZVideoViewController.m */,
-				457007021D45D3430026AF34 /* KZVideoListViewController.h */,
-				457007031D45D3430026AF34 /* KZVideoListViewController.m */,
-				457007061D45D3430026AF34 /* KZVideoSupport.h */,
-				457007071D45D3430026AF34 /* KZVideoSupport.m */,
-				457007001D45D3420026AF34 /* KZVideoConfig.h */,
-				457007011D45D3420026AF34 /* KZVideoConfig.m */,
-				457007041D45D3430026AF34 /* KZVideoPlayer.h */,
-				457007051D45D3430026AF34 /* KZVideoPlayer.m */,
+				457007181D45E0C00026AF34 /* KZVideoViewController.h */,
+				457007191D45E0C00026AF34 /* KZVideoViewController.m */,
+				457007121D45E0C00026AF34 /* KZVideoListViewController.h */,
+				457007131D45E0C00026AF34 /* KZVideoListViewController.m */,
+				457007101D45E0C00026AF34 /* KZVideoConfig.h */,
+				457007111D45E0C00026AF34 /* KZVideoConfig.m */,
+				457007141D45E0C00026AF34 /* KZVideoPlayer.h */,
+				457007151D45E0C00026AF34 /* KZVideoPlayer.m */,
+				457007161D45E0C00026AF34 /* KZVideoSupport.h */,
+				457007171D45E0C00026AF34 /* KZVideoSupport.m */,
 			);
-			path = KZWeChatSmallVideo;
+			path = KZSmallVideoRecorder;
 			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
@@ -198,13 +198,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4570070A1D45D3430026AF34 /* KZVideoConfig.m in Sources */,
-				4570070C1D45D3430026AF34 /* KZVideoPlayer.m in Sources */,
+				4570071A1D45E0C00026AF34 /* KZVideoConfig.m in Sources */,
+				4570071C1D45E0C00026AF34 /* KZVideoPlayer.m in Sources */,
 				455711771D3CCA1200D733D0 /* ViewController.m in Sources */,
-				4570070B1D45D3430026AF34 /* KZVideoListViewController.m in Sources */,
+				4570071B1D45E0C00026AF34 /* KZVideoListViewController.m in Sources */,
 				455711741D3CCA1200D733D0 /* AppDelegate.m in Sources */,
-				4570070E1D45D3430026AF34 /* KZVideoViewController.m in Sources */,
-				4570070D1D45D3430026AF34 /* KZVideoSupport.m in Sources */,
+				4570071E1D45E0C00026AF34 /* KZVideoViewController.m in Sources */,
+				4570071D1D45E0C00026AF34 /* KZVideoSupport.m in Sources */,
 				455711711D3CCA1200D733D0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
