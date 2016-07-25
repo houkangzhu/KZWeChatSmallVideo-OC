@@ -338,6 +338,7 @@
     KZEyePathRelease(path);
 }
 
+/*
 - (void)drawRect:(CGRect)rect {
     [super drawRect:rect];
     return;
@@ -358,7 +359,7 @@
     
     KZEyePathRelease(path);
 }
-
+*/
 typedef struct eyePath {
     CGMutablePathRef strokePath;
     CGMutablePathRef fillPath;
