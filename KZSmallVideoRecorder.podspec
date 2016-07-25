@@ -8,10 +8,7 @@ Pod::Spec.new do |s|
 
   s.license      = "MIT"
 
-  s.author             = { "604952096@qq.com" => "houkangzhu@hotmail.com" }
-  # Or just: s.author    = "604952096@qq.com"
-  # s.authors            = { "604952096@qq.com" => "houkangzhu@hotmail.com" }
-  # s.social_media_url   = "http://twitter.com/604952096@qq.com"
+  s.author             = { "houkangzhu" => "houkangzhu@hotmail.com" }
 
   s.platform     = :ios, "7.0"
   s.ios.deployment_target = '7.0'
