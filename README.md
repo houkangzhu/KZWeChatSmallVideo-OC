@@ -13,6 +13,16 @@
 
 ![全屏录视频](https://github.com/houkangzhu/KZWeChatSmallVideo-OC/blob/master/record1.gif)
 
+**cocoapod 地址:**
+
+    pod 'KZSmallVideoRecorder', '~> 1.0.4'
+
+
+导入
+    
+    #import "KZVideoViewController.h"
+
+
 调用方法
 
     KZVideoViewController *videoVC = [[KZVideoViewController alloc] init];
