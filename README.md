@@ -5,13 +5,13 @@
 
 有两种风格 聊天界面和朋友圈界面
 
-小窗口录视频
+效果图1
 
-![小窗口录视频](https://github.com/houkangzhu/KZWeChatSmallVideo-OC/blob/master/IMG_1621.jpg)
+![小窗口录视频](https://github.com/houkangzhu/KZWeChatSmallVideo-OC/blob/master/record3.gif)
 
-全屏录视频
+效果图2
 
-![全屏录视频](https://github.com/houkangzhu/KZWeChatSmallVideo-OC/blob/master/Screen%20Shot2.jpg)
+![全屏录视频](https://github.com/houkangzhu/KZWeChatSmallVideo-OC/blob/master/record1.gif)
 
 调用方法
 
@@ -42,6 +42,4 @@
 
 全部按钮图片等使用 CALayer 或者Context 绘制
 
-效果图
 
-![效果图](https://github.com/houkangzhu/KZWeChatSmallVideo-OC/blob/master/record3.gif)
