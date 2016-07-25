@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		455711711D3CCA1200D733D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 455711701D3CCA1200D733D0 /* main.m */; };
+		455711741D3CCA1200D733D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 455711731D3CCA1200D733D0 /* AppDelegate.m */; };
+		455711771D3CCA1200D733D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 455711761D3CCA1200D733D0 /* ViewController.m */; };
+		4557117C1D3CCA1200D733D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4557117B1D3CCA1200D733D0 /* Assets.xcassets */; };
+		4557117F1D3CCA1200D733D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4557117D1D3CCA1200D733D0 /* LaunchScreen.storyboard */; };
+		455711871D3CCA3500D733D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455711861D3CCA3500D733D0 /* CoreGraphics.framework */; };
+		455711891D3CCA3A00D733D0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 455711881D3CCA3A00D733D0 /* AVFoundation.framework */; };
+		4557118B1D3CCA4D00D733D0 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4557118A1D3CCA4D00D733D0 /* bg.png */; };
+		455711941D3CCBBC00D733D0 /* KZVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 455711931D3CCBBC00D733D0 /* KZVideoViewController.m */; };
+		457F09C01D3DCFA4009675BA /* KZVideoSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 457F09BF1D3DCFA4009675BA /* KZVideoSupport.m */; };
+		457F09C31D3DCFD3009675BA /* KZVideoConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 457F09C21D3DCFD3009675BA /* KZVideoConfig.m */; };
+		458E84631D40A869007FD511 /* KZVideoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 458E84621D40A869007FD511 /* KZVideoListViewController.m */; };
+		458E84651D40AF35007FD511 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 458E84641D40AF35007FD511 /* Photos.framework */; };
+		458E84681D40C022007FD511 /* KZVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 458E84671D40C022007FD511 /* KZVideoPlayer.m */; };
+		458E846B1D40C96B007FD511 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 458E84691D40C96B007FD511 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4557116C1D3CCA1100D733D0 /* KZWeChatSmallVideo_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZWeChatSmallVideo_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		455711701D3CCA1200D733D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		455711721D3CCA1200D733D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		455711731D3CCA1200D733D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		455711751D3CCA1200D733D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		455711761D3CCA1200D733D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4557117B1D3CCA1200D733D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4557117E1D3CCA1200D733D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		455711801D3CCA1200D733D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		455711861D3CCA3500D733D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		455711881D3CCA3A00D733D0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4557118A1D3CCA4D00D733D0 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		455711921D3CCBBC00D733D0 /* KZVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZVideoViewController.h; sourceTree = "<group>"; };
+		455711931D3CCBBC00D733D0 /* KZVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZVideoViewController.m; sourceTree = "<group>"; };
+		457F09BE1D3DCFA4009675BA /* KZVideoSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZVideoSupport.h; sourceTree = "<group>"; };
+		457F09BF1D3DCFA4009675BA /* KZVideoSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZVideoSupport.m; sourceTree = "<group>"; };
+		457F09C11D3DCFD3009675BA /* KZVideoConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZVideoConfig.h; sourceTree = "<group>"; };
+		457F09C21D3DCFD3009675BA /* KZVideoConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZVideoConfig.m; sourceTree = "<group>"; };
+		458E84611D40A869007FD511 /* KZVideoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZVideoListViewController.h; sourceTree = "<group>"; };
+		458E84621D40A869007FD511 /* KZVideoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZVideoListViewController.m; sourceTree = "<group>"; };
+		458E84641D40AF35007FD511 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		458E84661D40C022007FD511 /* KZVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZVideoPlayer.h; sourceTree = "<group>"; };
+		458E84671D40C022007FD511 /* KZVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZVideoPlayer.m; sourceTree = "<group>"; };
+		458E846A1D40C96B007FD511 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		455711691D3CCA1100D733D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				458E84651D40AF35007FD511 /* Photos.framework in Frameworks */,
+				455711891D3CCA3A00D733D0 /* AVFoundation.framework in Frameworks */,
+				455711871D3CCA3500D733D0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		455711631D3CCA1100D733D0 = {
+			isa = PBXGroup;
+			children = (
+				458E84641D40AF35007FD511 /* Photos.framework */,
+				455711881D3CCA3A00D733D0 /* AVFoundation.framework */,
+				455711861D3CCA3500D733D0 /* CoreGraphics.framework */,
+				4557116E1D3CCA1200D733D0 /* KZWeChatSmallVideo_OC */,
+				4557116D1D3CCA1100D733D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4557116D1D3CCA1100D733D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4557116C1D3CCA1100D733D0 /* KZWeChatSmallVideo_OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4557116E1D3CCA1200D733D0 /* KZWeChatSmallVideo_OC */ = {
+			isa = PBXGroup;
+			children = (
+				4557118A1D3CCA4D00D733D0 /* bg.png */,
+				455711721D3CCA1200D733D0 /* AppDelegate.h */,
+				455711731D3CCA1200D733D0 /* AppDelegate.m */,
+				455711751D3CCA1200D733D0 /* ViewController.h */,
+				455711761D3CCA1200D733D0 /* ViewController.m */,
+				455711911D3CCBBC00D733D0 /* Classes */,
+				4557117B1D3CCA1200D733D0 /* Assets.xcassets */,
+				458E84691D40C96B007FD511 /* Main.storyboard */,
+				4557117D1D3CCA1200D733D0 /* LaunchScreen.storyboard */,
+				455711801D3CCA1200D733D0 /* Info.plist */,
+				4557116F1D3CCA1200D733D0 /* Supporting Files */,
+			);
+			path = KZWeChatSmallVideo_OC;
+			sourceTree = "<group>";
+		};
+		4557116F1D3CCA1200D733D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				455711701D3CCA1200D733D0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		455711911D3CCBBC00D733D0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				455711921D3CCBBC00D733D0 /* KZVideoViewController.h */,
+				455711931D3CCBBC00D733D0 /* KZVideoViewController.m */,
+				458E84611D40A869007FD511 /* KZVideoListViewController.h */,
+				458E84621D40A869007FD511 /* KZVideoListViewController.m */,
+				457F09BE1D3DCFA4009675BA /* KZVideoSupport.h */,
+				457F09BF1D3DCFA4009675BA /* KZVideoSupport.m */,
+				457F09C11D3DCFD3009675BA /* KZVideoConfig.h */,
+				457F09C21D3DCFD3009675BA /* KZVideoConfig.m */,
+				458E84661D40C022007FD511 /* KZVideoPlayer.h */,
+				458E84671D40C022007FD511 /* KZVideoPlayer.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4557116B1D3CCA1100D733D0 /* KZWeChatSmallVideo_OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 455711831D3CCA1200D733D0 /* Build configuration list for PBXNativeTarget "KZWeChatSmallVideo_OC" */;
+			buildPhases = (
+				455711681D3CCA1100D733D0 /* Sources */,
+				455711691D3CCA1100D733D0 /* Frameworks */,
+				4557116A1D3CCA1100D733D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KZWeChatSmallVideo_OC;
+			productName = KZWeChatSmallVideo_OC;
+			productReference = 4557116C1D3CCA1100D733D0 /* KZWeChatSmallVideo_OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		455711641D3CCA1100D733D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "侯康柱";
+				TargetAttributes = {
+					4557116B1D3CCA1100D733D0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 455711671D3CCA1100D733D0 /* Build configuration list for PBXProject "KZWeChatSmallVideo_OC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 455711631D3CCA1100D733D0;
+			productRefGroup = 4557116D1D3CCA1100D733D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4557116B1D3CCA1100D733D0 /* KZWeChatSmallVideo_OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4557116A1D3CCA1100D733D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4557117F1D3CCA1200D733D0 /* LaunchScreen.storyboard in Resources */,
+				458E846B1D40C96B007FD511 /* Main.storyboard in Resources */,
+				4557117C1D3CCA1200D733D0 /* Assets.xcassets in Resources */,
+				4557118B1D3CCA4D00D733D0 /* bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		455711681D3CCA1100D733D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455711771D3CCA1200D733D0 /* ViewController.m in Sources */,
+				457F09C01D3DCFA4009675BA /* KZVideoSupport.m in Sources */,
+				457F09C31D3DCFD3009675BA /* KZVideoConfig.m in Sources */,
+				458E84681D40C022007FD511 /* KZVideoPlayer.m in Sources */,
+				458E84631D40A869007FD511 /* KZVideoListViewController.m in Sources */,
+				455711941D3CCBBC00D733D0 /* KZVideoViewController.m in Sources */,
+				455711741D3CCA1200D733D0 /* AppDelegate.m in Sources */,
+				455711711D3CCA1200D733D0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4557117D1D3CCA1200D733D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4557117E1D3CCA1200D733D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		458E84691D40C96B007FD511 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				458E846A1D40C96B007FD511 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		455711811D3CCA1200D733D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		455711821D3CCA1200D733D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		455711841D3CCA1200D733D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				INFOPLIST_FILE = KZWeChatSmallVideo_OC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.houkangzhu.KZWeChatSmallVideo-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		455711851D3CCA1200D733D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KZWeChatSmallVideo_OC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.houkangzhu.KZWeChatSmallVideo-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		455711671D3CCA1100D733D0 /* Build configuration list for PBXProject "KZWeChatSmallVideo_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455711811D3CCA1200D733D0 /* Debug */,
+				455711821D3CCA1200D733D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		455711831D3CCA1200D733D0 /* Build configuration list for PBXNativeTarget "KZWeChatSmallVideo_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				455711841D3CCA1200D733D0 /* Debug */,
+				455711851D3CCA1200D733D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 455711641D3CCA1100D733D0 /* Project object */;
+}
