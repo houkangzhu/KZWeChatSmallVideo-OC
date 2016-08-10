@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "KZSmallVideoRecorder"
-  s.version      = "1.0.4"
+  s.version      = “1.0.5”
   s.summary      = "仿微信小视频的录制 Objective-C 版"
 
   s.homepage     = "https://github.com/houkangzhu/KZWeChatSmallVideo-OC"
