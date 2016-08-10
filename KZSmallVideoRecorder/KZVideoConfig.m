@@ -30,7 +30,7 @@ void kz_dispatch_after(float time, dispatch_block_t block)
 }
 
 + (CGSize)defualtVideoSize {
-    return CGSizeMake(320*kzVideo_w_h, 320);
+    return CGSizeMake(kzVideoWidthPX, kzVideoWidthPX/kzVideo_w_h);
 }
 
 + (NSArray *)gradualColors {

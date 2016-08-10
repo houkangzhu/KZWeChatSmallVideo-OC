@@ -12,20 +12,24 @@
 #define kzSCREEN_HEIGHT     [UIScreen mainScreen].bounds.size.height
 
 
-// 视频保存路径
-#define kzVideoDicName      @"kzSmailVideo"
-
 #define kzThemeBlackColor   [UIColor blackColor]
 #define kzThemeTineColor    [UIColor greenColor]
 
 #define kzThemeWaringColor  [UIColor redColor]
 #define kzThemeWhiteColor   [UIColor whiteColor]
 #define kzThemeGraryColor   [UIColor grayColor]
+
+// 视频保存路径
+#define kzVideoDicName      @"kzSmailVideo"
+
 // 视频录制 时长
 #define kzRecordTime        10.0
 
 // 视频的长宽按比例
 #define kzVideo_w_h (4.0/3)
+
+// 视频默认 宽的分辨率  高 = kzVideoWidthPX / kzVideo_w_h
+#define kzVideoWidthPX  200.0
 
 //控制条高度 小屏幕时
 #define kzControViewHeight  120.0
@@ -44,7 +48,7 @@ typedef NS_ENUM(NSUInteger, KZVideoViewShowType) {
 // 录像 的 View 大小
 + (CGRect)viewFrameWithType:(KZVideoViewShowType)type;
 
-//视频尺寸
+//视频View的尺寸
 + (CGSize)videoViewDefaultSize;
 
 // 默认视频分辨率

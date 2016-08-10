@@ -10,7 +10,7 @@
 #import "KZVideoConfig.h"
 @protocol KZVideoViewControllerDelegate;
 
-// 主类 
+// 主类  更多自定义..修改KZVideoConfig.h里面的define
 @interface KZVideoViewController : NSObject
 
 @property (nonatomic, strong, readonly) UIView *view;

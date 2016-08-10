@@ -15,41 +15,50 @@
 
 **cocoapod 地址:**
 
-    pod 'KZSmallVideoRecorder', '~> 1.0.4'
+```
+pod 'KZSmallVideoRecorder', '~> 1.0.4'
+```
 
+**导入**
 
-导入
-    
-    #import "KZVideoViewController.h"
+```
+ #import "KZVideoViewController.h"
+```
 
+**调用方法**
 
-调用方法
+```
+KZVideoViewController *videoVC = [[KZVideoViewController alloc] init];
+videoVC.delegate = self;
+[videoVC startAnimationWithType:KZVideoViewShowTypeSmall];
+```
 
-    KZVideoViewController *videoVC = [[KZVideoViewController alloc] init];
-    videoVC.delegate = self;
-    [videoVC startAnimationWithType:KZVideoViewShowTypeSmall];
+**显示风格**
 
-显示风格
+```
+KZVideoViewShowTypeSmall,  // 小屏幕 ...聊天界面的
+KZVideoViewShowTypeSingle, // 全屏 ... 朋友圈界面的
+```
+**实现代理方法**
 
-    KZVideoViewShowTypeSmall,  // 小屏幕 ...聊天界面的
-    KZVideoViewShowTypeSingle, // 全屏 ... 朋友圈界面的
-
-实现代理方法
-
-    - (void)videoViewController:(KZVideoViewController *)videoController didRecordVideo:(KZVideoModel *)videoModel;
+```
+- (void)videoViewController:(KZVideoViewController *)videoController didRecordVideo:(KZVideoModel *)videoModel;
+```
 
 视频model属性
 
-    @interface KZVideoModel : NSObject
-    @property (nonatomic, copy) NSString *videoAbsolutePath;  // 完整视频 本地路径
-    @property (nonatomic, copy) NSString *thumAbsolutePath;  // 缩略图 路径
-    @property (nonatomic, assign) NSDate *recordTime; // 录制时间
-    @end
-
+```
+@interface KZVideoModel : NSObject
+@property (nonatomic, copy) NSString *videoAbsolutePath;  // 完整视频 本地路径
+@property (nonatomic, copy) NSString *thumAbsolutePath;  // 缩略图 路径
+@property (nonatomic, assign) NSDate *recordTime; // 录制时间
+@end
+```
 压缩视频, 录制分辨率可配置
 
 在 (宽 : 高=320px) = 4:3  情况下 录制视频 10秒大小 2M左右
 
 全部按钮图片等使用 CALayer 或者Context 绘制
 
+####修改视频分辨率,保存路径等直接改KZVideoConfig.h文件的定义
 
