@@ -73,7 +73,7 @@ typedef NS_ENUM(NSUInteger, KZVideoViewShowType) {
 /// 缩略图 路径
 @property (nonatomic, copy) NSString *thumAbsolutePath;
 // 录制时间
-@property (nonatomic, assign) NSDate *recordTime;
+@property (nonatomic, strong) NSDate *recordTime;
 
 @end
 

@@ -189,8 +189,20 @@ static KZVideoViewController *__currentVideoVC = nil;
 }
 
 - (void)setupVideo {
+    NSString *unUseInfo = nil;
     if (TARGET_IPHONE_SIMULATOR) {
-        _statusInfo.text = @"模拟器不可以的..";
+        unUseInfo = @"模拟器不可以的..";
+    }
+    AVAuthorizationStatus videoAuthStatus = [AVCaptureDevice authorizationStatusForMediaType:AVMediaTypeVideo];
+    if(videoAuthStatus == ALAuthorizationStatusRestricted || videoAuthStatus == ALAuthorizationStatusDenied){
+        unUseInfo = @"相机访问受限...";
+    }
+    AVAuthorizationStatus audioAuthStatus = [AVCaptureDevice authorizationStatusForMediaType:AVMediaTypeAudio];
+    if(audioAuthStatus == ALAuthorizationStatusRestricted || audioAuthStatus == ALAuthorizationStatusDenied){
+        unUseInfo = @"录音访问受限...";
+    }
+    if (unUseInfo != nil) {
+        _statusInfo.text = unUseInfo;
         _statusInfo.hidden = NO;
         _eyeView = [[KZEyeView alloc] initWithFrame:_videoView.bounds];
         [_videoView addSubview:_eyeView];
