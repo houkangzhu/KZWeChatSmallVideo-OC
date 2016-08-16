@@ -51,7 +51,7 @@ KZVideoViewShowTypeSingle, // 全屏 ... 朋友圈界面的
 @interface KZVideoModel : NSObject
 @property (nonatomic, copy) NSString *videoAbsolutePath;  // 完整视频 本地路径
 @property (nonatomic, copy) NSString *thumAbsolutePath;  // 缩略图 路径
-@property (nonatomic, assign) NSDate *recordTime; // 录制时间
+@property (nonatomic, strong) NSDate *recordTime; // 录制时间
 @end
 ```
 压缩视频, 录制分辨率可配置
